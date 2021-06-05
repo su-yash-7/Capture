@@ -7,12 +7,26 @@ export const About = styled(motion.div)`
   justify-content: space-around;
   padding: 5rem 10rem;
   color: white;
+  @media (max-width: 1300px) {
+    display: block;
+    padding: 2rem 2rem;
+    text-align: center;
+  }
 `;
 export const Description = styled.div`
   flex: 1;
   padding-right: 5rem;
   h2 {
     font-weight: lighter;
+  }
+  @media (max-width: 1300px) {
+    display: block;
+    padding: 2rem 2rem;
+    text-align: center;
+    align-items: center;
+    button {
+      margin: 2rem 0rem 5rem 0rem;
+    }
   }
   z-index: 2;
 `;
