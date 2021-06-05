@@ -12,7 +12,6 @@ import {
   lineAnim,
   slider,
   sliderContainer,
-  scrollReveal,
 } from "../animation";
 import { useScroll } from "../components/useScroll";
 import ScrollTop from "../components/ScrollTop";
